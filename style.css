@@ -1,0 +1,103 @@
+
+         
+  
+  #social-holder {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ffffff;
+    background: #ff9626;
+    top: 200px;
+    margin:  0 auto;
+    cursor: pointer;
+    z-index: 1;
+    position: fixed;
+    top: 500px;
+    left: 1100px;
+
+  }
+  .share-icon {
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      left: 15px;
+      color: #FFF;
+      z-index: 1;
+    
+      
+
+  }
+  .circle-bg-fb,
+  .circle-bg-tw,
+  .circle-bg-g,
+  .circle-bg-p{
+      width: 50px;
+      height: 50px;
+      display: box;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      box-sizing: border-box;
+      padding: 10px;
+      margin: 5px 0 0 5px;
+      z-index: -1;
+      z-index: 1;
+  }
+  .circle-bg-fb {
+      position: absolute;
+      background-color: #3b5998;
+      top: 0;
+      left: 0;
+      -webkit-transition:all 1s;
+      transition:all 1s;
+  }
+  .circle-bg-fb-end {
+      top: -100px;
+      left: -110px;
+      -webkit-transition:all 1s;
+      transition:all 1s;
+  }
+  .circle-bg-tw {
+      position: absolute;
+      background-color: #55ACEE;
+      top: 0;
+      left: 0;
+      -webkit-transition:all 1s;
+      transition:all 1s;
+  }
+  .circle-bg-tw-end {
+      top: -100px;
+      left: -35px;
+      -webkit-transition:all 1s;
+      transition:all 1s;
+  }
+  .circle-bg-p {
+      position: absolute;  
+      background-color: #ec8423;
+      top: 0;
+      left: 0;
+      -webkit-transition:all 1s;
+      transition:all 1s;
+      
+  }
+  .circle-bg-p-end {
+      top: -100px;
+      left: 40px;
+      -webkit-transition:all 1s;
+      transition:all 1s;
+  }
+  .circle-bg-g {
+      position: absolute;
+      background-color: #D34836;
+      top: 0;
+      left: 0;
+      -webkit-transition:all 1s;
+      transition:all 1s;
+  }
+  .circle-bg-g-end {
+      top: -100px;
+      left: 115px;
+      -webkit-transition:all 1s;
+      transition:all 1s;
+  }
+  
